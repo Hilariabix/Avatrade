@@ -1,0 +1,20 @@
+---
+hunter:
+  url: "https://api.hunter.io/v2"
+  key: 8d928a14c506ffdce9d1479d64f37030ba59b0f0
+
+social_network:
+  url: "http://127.0.0.1:8000/api"
+  signup: "jwtauth/register"
+  login: "jwtauth/login"
+  refresh: "jwtauth/token/refresh"
+  posts: "posts"
+  likes: "likes"
+
+bot:
+  number_of_users: 3
+  max_posts_per_user: 6
+  max_likes_per_user: 7
+  max_post_content_length: 250
+  email_pool_domain: "avatrade.com"
+...
